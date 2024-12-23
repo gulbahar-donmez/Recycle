@@ -1,0 +1,175 @@
+.kirikkale{
+	color: black;
+	font-style: bold;
+	background-color: white;
+	 opacity: 0.75;
+}
+
+.istanbul{
+	color: black;
+	font-style: bold;
+	background-color: white;
+	 opacity: 0.75;
+}
+
+.aydin{
+	color: black;
+	font-style: bold;
+	background-color: white;
+	 opacity: 0.75;
+}
+
+.antalya{
+	color: black;
+	font-style: bold;
+	background-color: white;
+	 opacity: 0.75;
+}
+
+
+.w3-badge.w3-right.w3-margin-right {
+  background-color: red;
+  
+  color: white;
+  border: none;
+  /*
+  padding: 10px 20px;
+  font-size: 16px;
+  */
+  border-radius: 5px;
+
+  cursor: pointer;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.w3-bar-item-w3-padding-small-w3-hide-small{
+	border:none;
+}
+
+.w3-button.w3-black.w3-margin-bottom {
+	      background-color: #4CAF50;
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 10px; 
+        cursor: pointer;
+        font-size: 16px; 
+        transition: background-color 0.3s; 
+    }
+
+
+ 
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding:6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Başlık için stil */
+/* Galerimiz başlığı */
+.modern-title {
+    font-family: Georgia, 'Times New Roman', serif; /* Şık ve okunabilir yazı tipi */
+    font-size: 2.5rem; /* Yazı boyutu */
+    font-weight: normal; /* Normal kalınlık */
+    color: #444; /* Yazı rengi */
+    text-align: center; /* Ortaya hizalama */
+    margin: 20px 0; /* Üst ve alt boşluk */
+}
+
+
+/* Galeri için stil */
+.responsive {
+    display: flex; /* Flexbox kullanımı */
+    justify-content: center; /* Resimleri ortalamak için */
+    flex-wrap: wrap; /* Birden fazla satıra geçiş */
+    gap: 20px; /* Resimler arası boşluk */
+    margin-bottom: 50px; /* Alt boşluk */
+}
+
+.gallery {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Resim kartlarının genişliği */
+    text-align: center;
+    background-color: #fff; /* Arka plan beyaz */
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery:hover {
+    transform: translateY(-10px); /* Hover efekti */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.desc {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.w3-col-m6-w3-large-w3-margin-bottom{
+    font-size: 2.5rem; /* Yazı boyutu */
+    font-weight: normal; /* Normal kalınlık */
+    color: #444; /* Yazı rengi */
+    text-align: center; /* Ortaya hizalama */
+    margin: 20px 0; /* Üst ve alt boşluk */
+}
